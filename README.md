@@ -13,7 +13,7 @@ TFM/
 │   ├── app.py                                   # dashboard de monitorización semanal
 │   ├── requirements.txt
 │   └── artifacts/                               # modelo + config exportados desde el notebook (Sección 9)
-│       ├── lgbm_model.pkl
+│       ├── lgbm_model.txt
 │       └── config.json
 ├── data/
 │   ├── raw/                                     # caché de series descargadas de FRED (csv)
@@ -35,7 +35,7 @@ TFM/
 ## Dashboard (Streamlit)
 
 El dashboard **no reentrena nada**: carga el modelo LightGBM y la configuración exportados por
-la Sección 9 del notebook (`artifacts/lgbm_model.pkl` y `artifacts/config.json`), descarga datos
+la Sección 9 del notebook (`artifacts/lgbm_model.txt` y `artifacts/config.json`), descarga datos
 frescos de FRED en cada visita, y calcula la señal de la semana.
 
 ### Pasos

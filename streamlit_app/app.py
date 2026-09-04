@@ -8,7 +8,7 @@ import json
 import os
 from datetime import date
 
-import joblib
+import lightgbm as lgb
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
@@ -21,7 +21,9 @@ ARTIFACTS_DIR = os.path.join(os.path.dirname(__file__), 'artifacts')
 
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load(os.path.join(ARTIFACTS_DIR, 'lgbm_model.pkl'))
+    # Formato nativo de LightGBM (Booster), no un .pkl del wrapper de scikit-learn: es portable
+    # entre versiones de lightgbm/sklearn/Python distintas a las de Colab, donde se entrenó.
+    model = lgb.Booster(model_file=os.path.join(ARTIFACTS_DIR, 'lgbm_model.txt'))
     with open(os.path.join(ARTIFACTS_DIR, 'config.json')) as f:
         config = json.load(f)
     return model, config
