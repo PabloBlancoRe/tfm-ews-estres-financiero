@@ -1,0 +1,7 @@
+streamlit>=1.36
+pandas>=2.0
+numpy>=1.26
+fredapi>=0.5
+lightgbm>=4.0
+joblib>=1.3
+plotly>=5.20
