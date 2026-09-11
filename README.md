@@ -1,7 +1,8 @@
 # TFM — Sistema de Alerta Temprana (EWS) de Estrés Financiero Sistémico
 
 Máster en Ciencia de Datos. Predicción anticipada del NFCI (Fed de Chicago) mediante ML
-sobre series macro/mercado de FRED, con backtesting sobre GFC 2008, COVID 2020 y SVB 2023.
+sobre series macro/mercado de FRED, con backtesting sobre GFC 2008, deuda soberana 2011,
+COVID 2020 y SVB 2023.
 
 ## Estructura del proyecto
 
@@ -61,7 +62,11 @@ frescos de FRED en cada visita, y calcula la señal de la semana.
 
 - [x] Sección 2 — Datos, EDA y feature engineering
 - [x] Sección 3 — Modelización (Ridge, LightGBM walk-forward, LSTM)
-- [x] Sección 4 — Backtesting (GFC 2008, COVID 2020, SVB 2023)
+- [x] Sección 4 — Backtesting (GFC 2008, deuda 2011, COVID 2020, SVB 2023) + baseline de persistencia + alarma combinada (ensemble)
 - [x] Sección 5 — Interpretabilidad (SHAP)
 - [x] Sección 6 — Dashboard Streamlit (desplegado en Streamlit Community Cloud)
-- [ ] Informe Word (20 caras) y vídeo de presentación
+- [~] Informe Word (`informe/Informe_TFM_EWS.docx`) — texto completo, faltan las figuras (huecos marcados) y revisar portada
+- [ ] Vídeo de presentación
+
+Nota: `informe/` no se sube a GitHub deliberadamente (no es necesario para el dashboard y es
+el documento de entrega final).
