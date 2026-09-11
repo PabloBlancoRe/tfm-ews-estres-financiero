@@ -65,7 +65,7 @@ frescos de FRED en cada visita, y calcula la señal de la semana.
 - [x] Sección 4 — Backtesting (GFC 2008, deuda 2011, COVID 2020, SVB 2023) + baseline de persistencia + alarma combinada (ensemble)
 - [x] Sección 5 — Interpretabilidad (SHAP)
 - [x] Sección 6 — Dashboard Streamlit (desplegado en Streamlit Community Cloud)
-- [~] Informe Word (`informe/Informe_TFM_EWS.docx`) — texto completo, faltan las figuras (huecos marcados) y revisar portada
+- [~] Informe Word (`informe/Informe_TFM_EWS.docx`) — texto y resultados reales completos (17 págs./15 contables sin figuras); faltan las 8 figuras (huecos marcados) y revisar portada (universidad/tutor)
 - [ ] Vídeo de presentación
 
 Nota: `informe/` no se sube a GitHub deliberadamente (no es necesario para el dashboard y es
