@@ -63,5 +63,5 @@ frescos de FRED en cada visita, y calcula la señal de la semana.
 - [x] Sección 3 — Modelización (Ridge, LightGBM walk-forward, LSTM)
 - [x] Sección 4 — Backtesting (GFC 2008, COVID 2020, SVB 2023)
 - [x] Sección 5 — Interpretabilidad (SHAP)
-- [x] Sección 6 — Dashboard Streamlit (código listo; pendiente descargar artefactos y desplegar)
+- [x] Sección 6 — Dashboard Streamlit (desplegado en Streamlit Community Cloud)
 - [ ] Informe Word (20 caras) y vídeo de presentación
