@@ -1,0 +1,162 @@
+[
+  {
+    "Episodio":"GFC 2008",
+    "Modelo":"Ridge",
+    "RMSE":1.163,
+    "MAE":0.956,
+    "Precision":1.0,
+    "Recall":0.907,
+    "F1":0.951,
+    "Lead time (semanas)":70.0
+  },
+  {
+    "Episodio":"GFC 2008",
+    "Modelo":"LightGBM",
+    "RMSE":1.835,
+    "MAE":1.609,
+    "Precision":0.0,
+    "Recall":0.0,
+    "F1":0.0,
+    "Lead time (semanas)":null
+  },
+  {
+    "Episodio":"GFC 2008",
+    "Modelo":"LSTM",
+    "RMSE":1.605,
+    "MAE":1.295,
+    "Precision":1.0,
+    "Recall":0.574,
+    "F1":0.729,
+    "Lead time (semanas)":72.0
+  },
+  {
+    "Episodio":"GFC 2008",
+    "Modelo":"Ensemble (OR)",
+    "RMSE":null,
+    "MAE":null,
+    "Precision":1.0,
+    "Recall":0.954,
+    "F1":0.976,
+    "Lead time (semanas)":72.0
+  },
+  {
+    "Episodio":"Deuda 2011",
+    "Modelo":"Ridge",
+    "RMSE":0.271,
+    "MAE":0.219,
+    "Precision":0.176,
+    "Recall":0.75,
+    "F1":0.286,
+    "Lead time (semanas)":19.0
+  },
+  {
+    "Episodio":"Deuda 2011",
+    "Modelo":"LightGBM",
+    "RMSE":0.225,
+    "MAE":0.174,
+    "Precision":0.0,
+    "Recall":0.0,
+    "F1":0.0,
+    "Lead time (semanas)":4.0
+  },
+  {
+    "Episodio":"Deuda 2011",
+    "Modelo":"LSTM",
+    "RMSE":0.421,
+    "MAE":0.387,
+    "Precision":0.111,
+    "Recall":1.0,
+    "F1":0.2,
+    "Lead time (semanas)":27.0
+  },
+  {
+    "Episodio":"Deuda 2011",
+    "Modelo":"Ensemble (OR)",
+    "RMSE":null,
+    "MAE":null,
+    "Precision":0.108,
+    "Recall":1.0,
+    "F1":0.195,
+    "Lead time (semanas)":27.0
+  },
+  {
+    "Episodio":"COVID 2020",
+    "Modelo":"Ridge",
+    "RMSE":0.426,
+    "MAE":0.312,
+    "Precision":1.0,
+    "Recall":0.4,
+    "F1":0.571,
+    "Lead time (semanas)":5.0
+  },
+  {
+    "Episodio":"COVID 2020",
+    "Modelo":"LightGBM",
+    "RMSE":0.301,
+    "MAE":0.195,
+    "Precision":0.444,
+    "Recall":0.533,
+    "F1":0.485,
+    "Lead time (semanas)":6.0
+  },
+  {
+    "Episodio":"COVID 2020",
+    "Modelo":"LSTM",
+    "RMSE":0.315,
+    "MAE":0.242,
+    "Precision":0.625,
+    "Recall":0.333,
+    "F1":0.435,
+    "Lead time (semanas)":3.0
+  },
+  {
+    "Episodio":"COVID 2020",
+    "Modelo":"Ensemble (OR)",
+    "RMSE":null,
+    "MAE":null,
+    "Precision":0.444,
+    "Recall":0.533,
+    "F1":0.485,
+    "Lead time (semanas)":6.0
+  },
+  {
+    "Episodio":"SVB 2023",
+    "Modelo":"Ridge",
+    "RMSE":0.194,
+    "MAE":0.149,
+    "Precision":1.0,
+    "Recall":1.0,
+    "F1":1.0,
+    "Lead time (semanas)":30.0
+  },
+  {
+    "Episodio":"SVB 2023",
+    "Modelo":"LightGBM",
+    "RMSE":0.217,
+    "MAE":0.2,
+    "Precision":1.0,
+    "Recall":1.0,
+    "F1":1.0,
+    "Lead time (semanas)":30.0
+  },
+  {
+    "Episodio":"SVB 2023",
+    "Modelo":"LSTM",
+    "RMSE":0.218,
+    "MAE":0.191,
+    "Precision":1.0,
+    "Recall":0.41,
+    "F1":0.582,
+    "Lead time (semanas)":30.0
+  },
+  {
+    "Episodio":"SVB 2023",
+    "Modelo":"Ensemble (OR)",
+    "RMSE":null,
+    "MAE":null,
+    "Precision":1.0,
+    "Recall":1.0,
+    "F1":1.0,
+    "Lead time (semanas)":30.0
+  }
+]
